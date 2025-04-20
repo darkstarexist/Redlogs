@@ -19,10 +19,7 @@ Redlogs is a lightweight Python application that fetches and displays Reddit acc
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/darkstarexist/Redlogs.git
-cd Redlogs
-'''
-## 2. Get the client_id and Client_Secret
-- Go to https://www.reddit.com/prefs/apps
-- click on create app
-- and fill your info and choose create script
+  git clone https://github.com/darkstarexist/Redlogs
+  cd Redlogs
+```
+
