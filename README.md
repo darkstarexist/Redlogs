@@ -38,27 +38,33 @@ Redlogs is a lightweight Python application that fetches and displays Reddit acc
   https://www.reddit.com/prefs/apps
 ```
 
+---
+
 ## Click on "Create App" and fill in the required fields:
 
-## name: Your app's name (e.g., "Redlogs").
+- name: Your app's name (e.g., "Redlogs").
 
-## App type: Select "script" for the type of app.
+- App type: Select "script" for the type of app.
 
-## description: A brief description of your app.
+- description: A brief description of your app.
 
-## about URL: Leave it blank or put a URL if you have one.
+- about URL: Leave it blank or put a URL if you have one.
 
-## redirect URI: Use http://localhost:8000 for testing purposes.
+- redirect URI: Use http://localhost:8000 for testing purposes.
 
-## permissions: Select "read" and any other permissions your app might need.
+- permissions: Select "read" and any other permissions your app might need.
 
-##Once created, you'll get the following credentials:
+---
 
-#Client ID: Found just under the webapp's name.
+## Once created, you'll get the following credentials:
 
-#Client Secret: A unique string found on the app page.
+- Client ID: Found just under the webapp's name.
 
-### Configure Environment Variables
+-Client Secret: A unique string found on the app page.
+
+---
+
+### 4. Configure Environment Variables
 ```bash
   REDDIT_CLIENT_ID='your_client_id_here'
   REDDIT_CLIENT_SECRET='your_client_secret_here'
@@ -66,8 +72,9 @@ Redlogs is a lightweight Python application that fetches and displays Reddit acc
   REDDIT_PASSWORD='your_reddit_password_here'
 
 ```
+---
 
-### Run the app in cmd
+### 5. Run the app in cmd
 ```bash
   python redlogs.py
 ```
