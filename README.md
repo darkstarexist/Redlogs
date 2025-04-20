@@ -65,7 +65,7 @@ Redlogs is a lightweight Python application that fetches and displays Reddit acc
 
 ---
 
-### 4. Configure Environment Variables
+### 4. Configure Environment Variables(.env file)
 ```bash
   REDDIT_CLIENT_ID='your_client_id_here'
   REDDIT_CLIENT_SECRET='your_client_secret_here'
