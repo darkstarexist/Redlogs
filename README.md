@@ -29,6 +29,7 @@ Redlogs is a lightweight Python application that fetches and displays Reddit acc
 ```bash
   pip install -r requirements.txt
 ```
+--- 
 
 ### 3. Configure .env file
 
